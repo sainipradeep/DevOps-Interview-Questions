@@ -34,7 +34,6 @@ Normalize Path Given a string s containing an absolute Unix-based dire
 <li>
  The method must return the normalized path a string.
 </li>
-
 </ul>
 <pre>
  Input: "/usr/local/./../bin/."
@@ -45,6 +44,11 @@ Normalize Path Given a string s containing an absolute Unix-based dire
 <br>
  Input: "/etc/system/../../home/user"
  Output: "/home/user"
+<br>
+## Solutions
+<a href="./coding/nodejs/README.md## Normalization directory path">
+NodeJS
+</a>
 </pre>
 </ol>
 
