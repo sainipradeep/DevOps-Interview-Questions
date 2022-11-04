@@ -46,7 +46,7 @@ Normalize Path Given a string s containing an absolute Unix-based dire
  Output: "/home/user"
 <br>
 ## Solutions
-<a href="./coding/nodejs/README.md## Normalization directory path">
+<a href="./coding/nodejs/README.md#normalization-directory-path">
 NodeJS
 </a>
 </pre>
