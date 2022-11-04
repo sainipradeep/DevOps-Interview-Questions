@@ -4,10 +4,19 @@
 <li>
 Using the command line, make an HTTP GET request to the following endpoint and save the output to a local file called "users.json":<br>
 http://localhost:5000/users
+<br>
+<br>
 </li>
 <li>
 Using Python 3, NodeJs, or Java 8, write a program to convert "users.json" into "users.csv". Only built in libraries are permitted.
+<br>
+## Solutions
+<br>
+<a href="/coding/nodejs/README.md#convert-json-to-csv">NodeJS</a>
+<br>
+<br>
 </li>
+
 
 <li>
 Normalize Path Given a string s containing an absolute Unix-based directory path write a program hat normalizes this path using the following rules.
@@ -46,7 +55,7 @@ Normalize Path Given a string s containing an absolute Unix-based dire
  Output: "/home/user"
 <br>
 ## Solutions
-<a href="./coding/nodejs/README.md#normalization-directory-path">
+<a href="/coding/nodejs/README.md#normalization-directory-path">
 NodeJS
 </a>
 </pre>
