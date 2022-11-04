@@ -42,3 +42,31 @@ normalize_directory_path("/a////b")
 normalize_directory_path("/../a")
 normalize_directory_path("/usr/./././../a")
 </pre>
+
+
+## Convert JSON to CSV
+
+<pre>
+const fs = require("fs")
+
+fs.readFile("users.json", function (err, users) {
+    users = JSON.parse(users.toString());
+    let keys = Object.keys(users[0])
+    let output = keys.join(",") + "\n"
+    for (let user of users) {
+        let line = ""
+        for (let i = 0; i < keys.length; i++) {
+            if (line != "") {
+                line += ","
+            }
+            line += user[keys[i]]
+        }
+
+        output += line + "\n"
+    }
+
+    fs.writeFile("users.csv", output, function (err, result) {
+        console.log(err, result);
+    })
+})
+</pre>
